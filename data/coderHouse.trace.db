@@ -1,0 +1,84 @@
+2022-07-13 01:51:36 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "CREATE TABLE CLIENTE ( nombre VARCHAR(50), apellido VARCHAR(50), dni INT, fecha_nacimiento DATE[*]"; se esperaba "ARRAY, INVISIBLE, VISIBLE, NOT NULL, NULL, AS, DEFAULT, GENERATED, ON UPDATE, NOT NULL, NULL, AUTO_INCREMENT, DEFAULT ON NULL, NULL_TO_DEFAULT, SEQUENCE, SELECTIVITY, COMMENT, CONSTRAINT, COMMENT, PRIMARY KEY, UNIQUE, NOT NULL, NULL, CHECK, REFERENCES, AUTO_INCREMENT, ,, )"
+Syntax error in SQL statement "CREATE TABLE CLIENTE ( nombre VARCHAR(50), apellido VARCHAR(50), dni INT, fecha_nacimiento DATE[*]"; expected "ARRAY, INVISIBLE, VISIBLE, NOT NULL, NULL, AS, DEFAULT, GENERATED, ON UPDATE, NOT NULL, NULL, AUTO_INCREMENT, DEFAULT ON NULL, NULL_TO_DEFAULT, SEQUENCE, SELECTIVITY, COMMENT, CONSTRAINT, COMMENT, PRIMARY KEY, UNIQUE, NOT NULL, NULL, CHECK, REFERENCES, AUTO_INCREMENT, ,, )"; SQL statement:
+CREATE TABLE CLIENTE ( nombre VARCHAR(50), apellido VARCHAR(50), dni INT, fecha_nacimiento DATE [42001-214]
+2022-07-13 01:53:04 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "CREATE TABLE CLIENTE ( nombre VARCHAR(50), apellido VARCHAR(50), dni INT, fecha_nacimiento DATE[*]"; se esperaba "ARRAY, INVISIBLE, VISIBLE, NOT NULL, NULL, AS, DEFAULT, GENERATED, ON UPDATE, NOT NULL, NULL, AUTO_INCREMENT, DEFAULT ON NULL, NULL_TO_DEFAULT, SEQUENCE, SELECTIVITY, COMMENT, CONSTRAINT, COMMENT, PRIMARY KEY, UNIQUE, NOT NULL, NULL, CHECK, REFERENCES, AUTO_INCREMENT, ,, )"
+Syntax error in SQL statement "CREATE TABLE CLIENTE ( nombre VARCHAR(50), apellido VARCHAR(50), dni INT, fecha_nacimiento DATE[*]"; expected "ARRAY, INVISIBLE, VISIBLE, NOT NULL, NULL, AS, DEFAULT, GENERATED, ON UPDATE, NOT NULL, NULL, AUTO_INCREMENT, DEFAULT ON NULL, NULL_TO_DEFAULT, SEQUENCE, SELECTIVITY, COMMENT, CONSTRAINT, COMMENT, PRIMARY KEY, UNIQUE, NOT NULL, NULL, CHECK, REFERENCES, AUTO_INCREMENT, ,, )"; SQL statement:
+CREATE TABLE CLIENTE ( nombre VARCHAR(50), apellido VARCHAR(50), dni INT, fecha_nacimiento DATE [42001-214]
+2022-07-13 01:54:58 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "CREATE TABLE CLIENTE ( nombre VARCHAR(50), apellido VARCHAR(50), dni INT, fecha_nacimiento DATE, [*])"; se esperaba "identifier"
+Syntax error in SQL statement "CREATE TABLE CLIENTE ( nombre VARCHAR(50), apellido VARCHAR(50), dni INT, fecha_nacimiento DATE, [*])"; expected "identifier"; SQL statement:
+CREATE TABLE CLIENTE ( nombre VARCHAR(50), apellido VARCHAR(50), dni INT, fecha_nacimiento DATE, ) [42001-214]
+2022-07-13 19:30:34 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "CREATE TABLE CLIENTE ( nombre VARCHAR(50), apellido VARCHAR(50), dni INT, fechanacimiento DATE PRIMARY KEY[*](dni) )"; se esperaba "HASH, CONSTRAINT, COMMENT, UNIQUE, NOT NULL, NULL, CHECK, REFERENCES, AUTO_INCREMENT, ,, )"
+Syntax error in SQL statement "CREATE TABLE CLIENTE ( nombre VARCHAR(50), apellido VARCHAR(50), dni INT, fechanacimiento DATE PRIMARY KEY[*](dni) )"; expected "HASH, CONSTRAINT, COMMENT, UNIQUE, NOT NULL, NULL, CHECK, REFERENCES, AUTO_INCREMENT, ,, )"; SQL statement:
+CREATE TABLE CLIENTE ( nombre VARCHAR(50), apellido VARCHAR(50), dni INT, fechanacimiento DATE PRIMARY KEY(dni) ) [42001-214]
+2022-07-13 19:32:02 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "CLIENTES" no encontrada
+Table "CLIENTES" not found; SQL statement:
+select cliente0_.dni as dni1_0_, cliente0_.apellido as apellido2_0_, cliente0_.fechanacimiento as fechanac3_0_, cliente0_.nombre as nombre4_0_ from clientes cliente0_ [42102-214]
+2022-07-13 19:32:47 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "CLIENTES" no encontrada
+Table "CLIENTES" not found; SQL statement:
+select cliente0_.dni as dni1_0_, cliente0_.apellido as apellido2_0_, cliente0_.fechanacimiento as fechanac3_0_, cliente0_.nombre as nombre4_0_ from clientes cliente0_ [42102-214]
+2022-07-13 19:33:51 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "CLIENTES" no encontrada
+Table "CLIENTES" not found; SQL statement:
+select cliente0_.dni as dni1_0_, cliente0_.apellido as apellido2_0_, cliente0_.fechanacimiento as fechanac3_0_, cliente0_.nombre as nombre4_0_ from clientes cliente0_ [42102-214]
+2022-07-13 19:35:22 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "CLIENTES" no encontrada
+Table "CLIENTES" not found; SQL statement:
+select cliente0_.dni as dni1_0_, cliente0_.apellido as apellido2_0_, cliente0_.fechanacimiento as fechanac3_0_, cliente0_.nombre as nombre4_0_ from clientes cliente0_ [42102-214]
+2022-07-13 19:35:33 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "CLIENTES" no encontrada
+Table "CLIENTES" not found; SQL statement:
+select cliente0_.dni as dni1_0_, cliente0_.apellido as apellido2_0_, cliente0_.fechanacimiento as fechanac3_0_, cliente0_.nombre as nombre4_0_ from clientes cliente0_ [42102-214]
+2022-07-13 19:38:07 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "CLIENTES" no encontrada
+Table "CLIENTES" not found; SQL statement:
+select cliente0_.dni as dni1_0_, cliente0_.apellido as apellido2_0_, cliente0_.fechanacimiento as fechanac3_0_, cliente0_.nombre as nombre4_0_ from clientes cliente0_ [42102-214]
+2022-07-13 19:38:08 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "CLIENTES" no encontrada
+Table "CLIENTES" not found; SQL statement:
+select cliente0_.dni as dni1_0_, cliente0_.apellido as apellido2_0_, cliente0_.fechanacimiento as fechanac3_0_, cliente0_.nombre as nombre4_0_ from clientes cliente0_ [42102-214]
+2022-07-13 19:39:59 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "CLIENTES" no encontrada
+Table "CLIENTES" not found; SQL statement:
+select cliente0_.dni as dni1_0_, cliente0_.apellido as apellido2_0_, cliente0_.fechanacimiento as fechanac3_0_, cliente0_.nombre as nombre4_0_ from clientes cliente0_ [42102-214]
+2022-07-13 19:40:20 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "CLIENTES" no encontrada
+Table "CLIENTES" not found; SQL statement:
+select cliente0_.dni as dni1_0_, cliente0_.apellido as apellido2_0_, cliente0_.fechanacimiento as fechanac3_0_, cliente0_.nombre as nombre4_0_ from clientes cliente0_ [42102-214]
+2022-07-13 19:41:41 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "CLIENTES" no encontrada
+Table "CLIENTES" not found; SQL statement:
+select cliente0_.dni as dni1_0_, cliente0_.apellido as apellido2_0_, cliente0_.fechanacimiento as fechanac3_0_, cliente0_.nombre as nombre4_0_ from clientes cliente0_ [42102-214]
+2022-07-13 19:42:29 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "CLIENTES" no encontrada
+Table "CLIENTES" not found; SQL statement:
+select cliente0_.dni as dni1_0_, cliente0_.apellido as apellido2_0_, cliente0_.fechanacimiento as fechanac3_0_, cliente0_.nombre as nombre4_0_ from clientes cliente0_ [42102-214]
+2022-07-13 19:43:44 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "CLIENTES" no encontrada
+Table "CLIENTES" not found; SQL statement:
+select cliente0_.dni as dni1_0_, cliente0_.apellido as apellido2_0_, cliente0_.fechanacimiento as fechanac3_0_, cliente0_.nombre as nombre4_0_ from clientes cliente0_ [42102-214]
+2022-07-13 19:43:46 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "CLIENTES" no encontrada
+Table "CLIENTES" not found; SQL statement:
+select cliente0_.dni as dni1_0_, cliente0_.apellido as apellido2_0_, cliente0_.fechanacimiento as fechanac3_0_, cliente0_.nombre as nombre4_0_ from clientes cliente0_ [42102-214]
+2022-07-13 19:43:47 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "CLIENTES" no encontrada
+Table "CLIENTES" not found; SQL statement:
+select cliente0_.dni as dni1_0_, cliente0_.apellido as apellido2_0_, cliente0_.fechanacimiento as fechanac3_0_, cliente0_.nombre as nombre4_0_ from clientes cliente0_ [42102-214]
+2022-07-13 19:48:19 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "CREATE TABLE CLIENTE ( nombre VARCHAR(50), apellido VARCHAR(50), dni INT, fechanacimiento DATE, PRIMARY KEY(dni), [*])"; se esperaba "identifier"
+Syntax error in SQL statement "CREATE TABLE CLIENTE ( nombre VARCHAR(50), apellido VARCHAR(50), dni INT, fechanacimiento DATE, PRIMARY KEY(dni), [*])"; expected "identifier"; SQL statement:
+CREATE TABLE CLIENTE ( nombre VARCHAR(50), apellido VARCHAR(50), dni INT, fechanacimiento DATE, PRIMARY KEY(dni), ) [42001-214]
+2022-07-13 19:49:08 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "CREATE TABLE CLIENTE ( nombre VARCHAR(50), apellido VARCHAR(50), dni INT, fechanacimiento DATE, PRIMARY KEY(dni), [*])"; se esperaba "identifier"
+Syntax error in SQL statement "CREATE TABLE CLIENTE ( nombre VARCHAR(50), apellido VARCHAR(50), dni INT, fechanacimiento DATE, PRIMARY KEY(dni), [*])"; expected "identifier"; SQL statement:
+CREATE TABLE CLIENTE ( nombre VARCHAR(50), apellido VARCHAR(50), dni INT, fechanacimiento DATE, PRIMARY KEY(dni), ) [42001-214]
+2022-07-13 19:49:34 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "CLIENTES" no encontrada
+Table "CLIENTES" not found; SQL statement:
+select cliente0_.dni as dni1_0_, cliente0_.apellido as apellido2_0_, cliente0_.fechanacimiento as fechanac3_0_, cliente0_.nombre as nombre4_0_ from clientes cliente0_ [42102-214]
